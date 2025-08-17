@@ -337,7 +337,7 @@ export default function Home() {
       setMessages((prev) => [...prev, emailMessage]);
 
       // Clear email input after successful send
-      setEmail("");
+      
     } catch (err) {
       console.error("Email send error:", err);
       showNotification(`Failed to send email: ${err.message}`, "error");
