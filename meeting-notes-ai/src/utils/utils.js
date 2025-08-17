@@ -1,1 +1,1 @@
-export const api = "http://localhost:5000/api";
+export const api = "https://assignment-production-49d8.up.railway.app/api";
